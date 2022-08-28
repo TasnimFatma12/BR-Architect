@@ -1,0 +1,453 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana,sans-serif;;
+}
+.bg{
+	width: 98.5%;
+	height: 105vh;
+	margin: auto;
+	background: url(images/architect.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+.bg p span{
+	font-size: 36px;
+	font-weight: 700;
+	font-family: "Segoe UI",Arial,sans-serif;
+	background: #242628;
+	padding: 14px;
+}
+.bg p{
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 390px;
+	color: #fff;
+}
+.nav{
+	height: 60px;
+	width: 100%;
+	background: #fff;
+	position: fixed;
+    top: 0;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.logo button span{
+	font-weight: bold;
+	font-size: 15px;
+}
+.logo button{
+	font-size: 15px;
+	border: none;
+	letter-spacing: 4px;
+	cursor: pointer;
+	padding: 11px 20px;
+	margin-top: 10px;
+	margin-left: 18px;
+	background: none;
+}
+.logo button:hover{
+	background: lightgrey;
+}
+.bar button a{
+	text-decoration: none;
+	color: #000;
+}
+.bar button{
+	border: none;
+	font-size: 15px;
+	letter-spacing: 4px;
+	border: none;
+	margin-top: 10px;
+	padding: 11px 20px;
+	background: none;
+}
+.bar button:hover{
+	background: lightgrey;
+}
+/*----------------------main page-----------------------------*/
+
+.main{
+	width: 97%;
+	height: auto;
+	padding-bottom: 5px;
+	margin: auto;
+	margin-top: 50px;
+}
+.project p{
+	margin-left: 8px;
+	font-size: 22px;
+	line-height: 36px;
+	margin-bottom: 15px;
+}
+hr{
+	height: 0.5px;
+	border: none;
+	background: #F1F1F1;
+	width: 99%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.box{
+	display: flex;
+	margin-top: 15px;
+}
+.box1{
+	display: flex;
+	width: 50%;
+	flex-direction: row;
+}
+.summer{
+	background: url(images/house5.jpg);
+	width: 50%;
+	height: 220px;
+	margin: 0 7px 0 7px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.summer1{
+	background: url(images/house2.jpg);
+	width: 50%;
+	height: 220px;
+	margin: 0 7px 0 7px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.summer2{
+	background: url(images/house3.jpg);
+	width: 50%;
+	height: 220px;
+	margin: 0 7px 0 7px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.summer3{
+	background: url(images/house4.jpg);
+	width: 50%;
+	height: 220px;
+	margin: 0 7px 0 7px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.summer4{
+	background: url(images/house2.jpg);
+	width: 50%;
+	height: 220px;
+	margin: 0 7px 0 7px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.summer5{
+	background: url(images/house5.jpg);
+	width: 50%;
+	height: 220px;
+	margin: 0 7px 0 7px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.summer6{
+	background: url(images/house4.jpg);
+	width: 50%;
+	height: 220px;
+	margin: 0 7px 0 7px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.summer7{
+	background: url(images/house3.jpg);
+	width: 50%;
+	height: 220px;
+	margin: 0 7px 0 7px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.summer button{
+	padding: 8px 16px;
+	color: #fff;
+	background: #000;
+	font-size: 15px;
+	border: none;
+}
+.summer1 button{
+	padding: 8px 16px;
+	color: #fff;
+	background: #000;
+	font-size: 15px;
+	border: none;
+}
+.summer2 button{
+	padding: 8px 16px;
+	color: #fff;
+	background: #000;
+	font-size: 15px;
+	border: none;
+}
+.summer3 button{
+	padding: 8px 16px;
+	color: #fff;
+	background: #000;
+	font-size: 15px;
+	border: none;
+}
+.summer4 button{
+	padding: 8px 16px;
+	color: #fff;
+	background: #000;
+	font-size: 15px;
+	border: none;
+}
+.summer5 button{
+	padding: 8px 16px;
+	color: #fff;
+	background: #000;
+	font-size: 15px;
+	border: none;
+}
+.summer6 button{
+	padding: 8px 16px;
+	color: #fff;
+	background: #000;
+	font-size: 15px;
+	border: none;
+}
+.summer7 button{
+	padding: 8px 16px;
+	color: #fff;
+	background: #000;
+	font-size: 15px;
+	border: none;
+}
+
+
+/*--------------------------about---------------------------*/
+.about{
+	margin-top: 70px;
+}
+.about h4{
+	margin-left: 8px;
+	font-size: 22px;
+	line-height: 36px;
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+.about p{
+	margin-left: 8px;
+	line-height: 23px;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.about1{
+	display: flex;
+}
+.client{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+}
+.client1{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+}
+.box2{
+	height: auto;
+	width: 50%;
+	margin: 10px;
+}
+.box2 img{
+	width: 100%;
+}
+.box2 p{
+	margin-left: 0px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	margin-top: 15px;
+}
+.box2 button{
+	border: none;
+	width: 100%;
+	border: none;
+	padding: 12px;
+	font-size: 15px;
+}
+.box2 h3{
+	font-size: 22px;
+	line-height: 36px;
+	font-weight: 400;
+	margin-top: 6px;
+}
+.box2 h5{
+	font-size: 15px;
+	font-weight: 400;
+	color: #666666;
+	margin-top: 15px;
+}
+/*--------------------contact---------------------------*/
+.contact{
+	margin-top: 70px;
+	
+}
+#hr{
+	height: 0.5px;
+	border: none;
+	background: #F1F1F1;
+	width: 99%;
+	margin: auto;
+	margin-bottom: 18px;
+}
+.contact h4{
+	font-size: 22px;
+	line-height: 36px;
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+.contact p{
+	font-size: 15px;
+	margin-bottom: 6px;
+}
+.contact img{
+	width: 100%;
+	margin-top: 50px;
+}
+.input{
+	width: 100%;
+	display: block;
+}
+.input input{
+	width: 100%;
+	margin-top: 13px;
+	padding: 11px;
+	border: 0.5px solid lightgrey;
+	font-size: 15px;
+}
+.input button{
+	padding: 9px 17px;
+	background: #000;
+	color: #fff;
+	border: none;
+	font-size: 15px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+/*--------------------footer-------------------------------*/
+.footer{
+	height: 12vh;
+	width: 100%;
+	background: #000;
+}
+.footer h3{
+	text-align: center;
+	color: #fff;
+	padding-top: 35px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+.bg{
+	height: 60vh;
+}
+.bg p{
+	padding-top: 210px;
+}
+
+.main{
+	width: 90%;
+}
+	.box1{
+	width: 100%;
+	flex-direction: column;
+}
+.summer{
+	width: 98%;
+	margin: 5px;
+}
+.summer1{
+	width: 98%;
+	margin: 5px;
+}
+.summer2{
+	width: 98%;
+	margin: 5px;
+}
+.summer3{
+	width: 98%;
+	margin: 5px;
+}
+.summer4{
+	width: 98%;
+	margin: 5px;
+}
+.summer5{
+	width: 98%;
+	margin: 5px;
+}
+.summer6{
+	width: 98%;
+	margin: 5px;
+}
+.summer7{
+	width: 98%;
+	margin: 5px;
+}
+.client{
+	flex-direction: column;
+	width: 100%;
+}
+.client1{
+	flex-direction: column;
+	width: 100%;
+}
+.box2{
+	width: 95%;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+	.box1{
+	width: 100%;
+	flex-direction: column;
+}
+.bar{
+	display: none;
+}
+.box2{
+	width: 95%;
+	margin-top: 30px;
+}
+.about1{
+	display: block;
+}
+.box{
+	display: block;
+}
+}
